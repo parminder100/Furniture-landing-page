@@ -1,0 +1,308 @@
+<<<<<<< HEAD
+body{
+    font-family: 'Inter', sans-serif;
+}
+p{
+    margin-bottom: 0px;
+}
+.navbar{
+    padding:unset;
+}
+.nav-link{
+    padding:unset;
+}
+header{
+    padding: 20px;
+    background-color: #3b5d50;
+}
+.logo{
+    color:white;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+    color:white;
+    border-bottom: 2px solid yellow;
+    padding-bottom: 3px;
+}
+.navbar-light .navbar-nav .nav-link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color:#FFFFFF;
+    opacity: 0.5;
+}
+.container .row{
+    justify-content: center;
+    align-items: center;
+}
+.container .row .right-col{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.container .row .left-col{
+    margin-bottom: 20px;
+}
+.banner-text{
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 65px;
+    color:white;
+    margin-bottom: 100px;
+}
+.shop-now-btn{
+    background: #F9BF29;
+    border-radius: 30px;
+    border: none;
+    padding: 11px 35px 11px 36px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #2F2F2F;
+    margin-right: 15px;
+}
+.explore-btn{
+    background: transparent;
+    border-radius: 30px;
+    padding: 11px 37px 11px 37px;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.29);
+}
+.couch-image{
+    z-index: 1;
+}
+.dotted-rectangle-image{
+    width:200px;
+    height:150px;
+    right: 3px;
+    top: 119px;
+}
+=======
+/* Header Start */
+body{
+    font-family: 'Inter', sans-serif;
+}
+p{
+    margin-bottom: 0px;
+}
+.navbar{
+    padding:unset;
+}
+.nav-link{
+    padding:unset;
+}
+header{
+    padding: 20px;
+    background-color: #3b5d50;
+}
+.logo{
+    color:white;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+    color:white;
+    border-bottom: 5px solid #F9BF29;
+    padding-bottom: 3px;
+    opacity:1;
+}
+.navbar-light .navbar-nav .nav-item .nav-link:hover{
+    color:#FFFFFF;
+    opacity:1;
+}
+.navbar-nav .nav-item{
+    margin-right: 44px;
+}
+.navbar-light .navbar-nav .nav-link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color:#FFFFFF;
+    opacity: 0.5;
+}
+.container .row{
+    justify-content: center;
+    align-items: center;
+}
+.container .row .right-col{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.container .row .left-col{
+    margin-bottom: 20px;
+}
+.banner-text{
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 65px;
+    color:white;
+    margin-bottom: 100px;
+}
+.shop-now-btn{
+    background: #F9BF29;
+    border-radius: 30px;
+    border: none;
+    padding: 11px 35px 11px 36px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #2F2F2F;
+    margin-right: 15px;
+}
+.explore-btn{
+    background: transparent;
+    border-radius: 30px;
+    padding: 11px 37px 11px 37px;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.29);
+}
+.couch-image{
+    z-index: 1;
+}
+.dotted-rectangle-image{
+    width:200px;
+    height:150px;
+    right: 3px;
+    top: 119px;
+}
+.navbar-icons img{
+    margin-right: 17px;
+}
+.navbar-items{
+    justify-content: center;
+    align-items: baseline;
+}
+/* Header End */
+
+/* Product Catalogue Start */
+.product-heading{
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 41px;
+    color: #2F2F2F;
+    margin-bottom: 27px;
+}
+.product-description{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #6A6A6A;
+    margin-bottom: 33px;
+}
+.product-btn{
+    padding:11px 32px 11px 32px;
+    background: #2F2F2F;
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    border:none;
+}
+.product-content{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.product-name{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #2F2F2F;
+}
+.product-price{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #2F2F2F;
+
+}
+/* Product Catalogue End */
+
+
+/* Why Choose Us Start */
+.why-choose-us-content{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.choose-us-heading{
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 41px;
+    color: #2F2F2F;
+    margin-bottom: 27px;
+}
+.choose-us-description{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #6A6A6A;
+    margin-bottom: 88px;
+    max-width: 420px;
+}
+.free-shipping-content{
+    margin-bottom: 50px;
+}
+.easy-to-shop-content{
+    margin-bottom: 50px;
+}
+.truck-icon-content{
+    margin-bottom: 8px;
+}
+.truck-ellipse{
+    left:9px;
+    background: rgba(53, 115, 110, 0.2);
+    border-radius: 50px;
+}
+.truck-heading{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #2F2F2F;
+    margin-bottom: 9px;
+}
+.truck-description{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #6A6A6A;
+}
+.why-choose-us-image{
+    z-index: 1;
+    width: 100%;
+    border-radius: 10px;
+}
+.dot-image{
+    right: 327px;
+    top: -52px;
+}
+.img-grid{
+    border-radius: 10px;
+}
+.table-image{
+    right: -170px;
+    top: 166px;
+    z-index: 1;
+}
+.dotted-blue-image{
+    right: 196px;
+    top: -54px;
+}
+.modern-design{
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+.img-grid-1{
+    z-index: 1;
+}
+/* Why Choose Us End */
+>>>>>>> master
