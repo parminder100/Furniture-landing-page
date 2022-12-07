@@ -1,90 +1,7 @@
-<<<<<<< HEAD
-body{
-    font-family: 'Inter', sans-serif;
-}
-p{
-    margin-bottom: 0px;
-}
-.navbar{
-    padding:unset;
-}
-.nav-link{
-    padding:unset;
-}
-header{
-    padding: 20px;
-    background-color: #3b5d50;
-}
-.logo{
-    color:white;
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 39px;
-}
-.navbar-light .navbar-nav .active>.nav-link{
-    color:white;
-    border-bottom: 2px solid yellow;
-    padding-bottom: 3px;
-}
-.navbar-light .navbar-nav .nav-link{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    color:#FFFFFF;
-    opacity: 0.5;
-}
-.container .row{
-    justify-content: center;
-    align-items: center;
-}
-.container .row .right-col{
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    margin-bottom: 20px;
-}
-.container .row .left-col{
-    margin-bottom: 20px;
-}
-.banner-text{
-    font-weight: 600;
-    font-size: 54px;
-    line-height: 65px;
-    color:white;
-    margin-bottom: 100px;
-}
-.shop-now-btn{
-    background: #F9BF29;
-    border-radius: 30px;
-    border: none;
-    padding: 11px 35px 11px 36px;
-    font-weight: 500;
-    font-size: 16px;
-    color: #2F2F2F;
-    margin-right: 15px;
-}
-.explore-btn{
-    background: transparent;
-    border-radius: 30px;
-    padding: 11px 37px 11px 37px;
-    font-weight: 500;
-    font-size: 16px;
-    color: white;
-    border: 2px solid rgba(255, 255, 255, 0.29);
-}
-.couch-image{
-    z-index: 1;
-}
-.dotted-rectangle-image{
-    width:200px;
-    height:150px;
-    right: 3px;
-    top: 119px;
-}
-=======
 /* Header Start */
 body{
     font-family: 'Inter', sans-serif;
+    background-color: #eff2f1;
 }
 p{
     margin-bottom: 0px;
@@ -285,6 +202,10 @@ header{
     right: 327px;
     top: -52px;
 }
+/* Why Choose Us End */
+
+
+/* Modern Design Start */
 .img-grid{
     border-radius: 10px;
 }
@@ -304,5 +225,318 @@ header{
 .img-grid-1{
     z-index: 1;
 }
-/* Why Choose Us End */
->>>>>>> master
+.modern-design-heading{
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 41px;
+    color: #2F2F2F;
+    margin-bottom: 28px;
+}
+.modern-design-description{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #6A6A6A;
+    margin-bottom: 31px;
+}
+.modern-design-items{
+    padding-inline-start: 18px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #6A6A6A;
+}
+.modern-design-items li{
+    margin-bottom: 24px;
+    margin-right: 62px;
+}
+/* Modern Design End */
+
+
+/* Product List Start */
+.product-list-content{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.product-list-heading{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 11px;
+}
+.product-list-description{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #6A6A6A;
+    margin-bottom: 11px;
+}
+.product-list-readmore-btn{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 22px;
+    color: #6A6A6A;
+}
+.product-list-image{
+    width:91px;
+}
+.product-list-right-column{
+    margin-left: 36px;
+}
+/* Product List End */
+
+
+/* Testimonial Start */
+.testimonial-description{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 42px;
+}
+.testimonial-name{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 4px;
+}
+.testimonial-person-desgination{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 32px;
+    text-align: center;
+    color: #2F2F2F;
+}
+.testimonial-image{
+    width:86px;
+    border-radius: 50px;
+    margin-bottom: 4px;
+}
+.testimonial-heading{
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 41px;
+    text-align: center;
+    color: #2F2F2F;
+    margin-bottom: -14px;
+}
+#demo{
+    max-width: 900px;
+    margin: auto;
+}
+.carousel-caption {
+    position: initial;
+    z-index: 10;
+    padding: 5rem 8rem;
+    color: rgba(78, 77, 77, 0.856);
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 2rem;
+}
+@media(max-width:767px){
+    .carousel-caption {
+        position: initial;
+        z-index: 10;
+        padding: 3rem 2rem;
+        color: rgba(78, 77, 77, 0.856);
+        text-align: center;
+        font-size: 0.7rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+}
+.carousel-caption img{
+    width: 6rem;
+    border-radius: 5rem;
+    margin-top: 2rem;
+}
+@media(max-width:767px){
+    .carousel-caption img{
+        width: 4rem;
+        border-radius: 4rem;
+        margin-top: 1rem;
+    }
+}
+#image-caption{
+    font-style: normal;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+@media(max-width:767px){
+    #image-caption{
+        font-style: normal;
+        font-size: 0.6rem;
+        margin-top: 0.5rem;
+    }
+}
+.prev-btn{
+    background: #385D50;
+    padding: 1.4rem;
+    border-radius: 50px;
+}
+@media(max-width:767px){
+    i{
+        padding: 0.8rem;
+    }
+}
+.carousel-control-prev{
+    justify-content: flex-start;
+}
+
+.carousel-control-next {
+    justify-content: flex-end;
+}
+.carousel-control-prev,.carousel-control-next{
+    transition: none;
+    opacity: unset;
+}
+/* Testimonial End */
+
+/* Blog Start */
+.blog-content{
+    padding-top: 100px;
+    padding-bottom: 150px;
+    background-color: #eff2f1;
+}
+.blog-heading{
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 41px;
+    color: #2F2F2F;
+}
+.view-all-post{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 41px;
+    color: #2F2F2F;
+    text-decoration: underline;
+}
+.blog-content-items{
+    justify-content: space-between;
+    margin-bottom: 36px;
+}
+.blog-image{
+    border-radius: 10px;
+    margin-bottom: 44px;
+}
+.blog-first-heading{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2F2F2F;
+    margin-bottom: 5px;
+}
+.blog-name{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2F2F2F;
+}
+/* Blog End */
+
+/* Footer Start */
+.footer-content{
+    margin-top: -84px;
+    padding-bottom: 100px;
+    background-color: #FFFFFF;
+}
+.mail-icon{
+    color: #CFCFCF;
+    margin-right: 12px;
+}
+.Newsletter{
+    margin-bottom: 23.85px;
+}
+.email-input{
+    margin-left: 15px;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    padding: 10px;
+}
+.input-name{
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    padding: 10px;
+}
+.message-send-btn{
+    background: #35736E;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    padding: 10px 14px 10px 14px;
+    color:white;
+    margin-left: 15px;
+}
+.footer-logo{
+    color:#000000;
+    margin-bottom: 19px;
+}
+.footer-first-column-description{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #6A6A6A;
+    margin-bottom: 58px;
+}
+.footer-container{
+    border-bottom: 1px solid #EFF2F1;
+    margin-top: 34px;
+    margin-bottom: 36px;
+}
+.footer-second-column{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #6A6A6A;
+}
+.footer-col1-width{
+    max-width: 39%;
+    flex: 0 0 39%;
+    margin-bottom: 34px;
+}
+.container .footer-row{
+    justify-content: left;
+    align-items: baseline;
+}
+.footer-col2-width{
+    max-width: 10%;
+}.footer-col3-width{
+    max-width: 10%;
+}.footer-col4-width{
+    max-width: 10%;
+}.footer-col5-width{
+    max-width: 10%;
+}
+.social-media-icons{
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+.social-media-icons li{
+    background-color: #D9D9D9;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    color: #000000;
+    align-items: center;
+    justify-content: center;
+    margin-right: 11px;
+}
+.privacy-policy{
+    list-style-type: none;
+    padding-inline-start: 0px;
+    display: flex;
+}
+.privacy-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.terms-condition{
+    margin-right: 42px;
+}
+/* Footer End */
