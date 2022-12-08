@@ -143,6 +143,37 @@ header{
     color: #2F2F2F;
 
 }
+.product-catalogue-first-col:hover{
+    background: rgba(53, 115, 110, 0.1);
+    border-radius: 20px;
+    transition: top ease 0.5s;
+    height: 307px;
+}
+.product-catalogue-first-col{
+    position: relative;
+}
+.nordic-product:hover{
+    transform: translateY(-100px);
+}
+.product-catalogue-first-col:hover .add-product-btn {
+    display: inline-block;
+    position: absolute;
+    right: 107px;
+    bottom: -16px;
+}
+.add-product-btn{
+    background: #2F2F2F;
+    box-shadow: 0px 7px 15px -1px rgba(0, 0, 0, 0.4);
+    width: 35px;
+    height: 35px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    display:none;
+}
+.add-product-btn-content{
+    display: none;
+}
 /* Product Catalogue End */
 
 
@@ -280,9 +311,22 @@ header{
 }
 .product-list-image{
     width:91px;
+    margin-top: -15px
+}
+.ergono-chair-image{
+    width: 78px;
+    height: 119px;
+    margin-left: 8px;
+    margin-top: -13px;
 }
 .product-list-right-column{
     margin-left: 36px;
+}
+.nordic-chair-bg{
+    background: rgba(53, 115, 110, 0.3);
+    border-radius: 10px;
+    width: 173px;
+    height: 99px;
 }
 /* Product List End */
 
@@ -378,6 +422,11 @@ header{
     background: #385D50;
     padding: 1.4rem;
     border-radius: 50px;
+    width: 58px;
+    height: 58px;
+}
+.prev-testi-btn{
+    opacity: 0.1;
 }
 @media(max-width:767px){
     i{
