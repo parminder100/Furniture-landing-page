@@ -589,3 +589,268 @@ header{
     margin-right: 42px;
 }
 /* Footer End */
+
+
+
+
+
+/* Media Queries Start */
+@media (max-width: 575.98px) {
+    /* Header Start */
+    .left-col{
+        max-width:50%
+    }
+    .right-col{
+        max-width: 50%;
+    }
+    .container .row .right-col{
+        justify-content: end;
+    }
+    .container .header-row{
+        align-items: flex-start;
+    }
+    .navbar{
+        display: flex;
+        justify-content: end;
+    }
+    .navbar-items{
+        text-align: end;
+        margin-top: 8px;
+    }
+    .navbar-nav .nav-item {
+        margin-right: unset;
+        margin-bottom: 8px;
+    }
+    .navbar-icons{
+        justify-content: end !important;
+    }
+    .navbar-icons .navbar-cart-icons{
+        margin-right: 0px;
+    }
+    /* Header End */
+
+     /* Mmodern Design Start */
+    .modern-design-right-col{
+        margin-top: 250px;
+    }
+    .table-image {
+        width: 225px;
+        height: 250px;
+        right: -171px;
+    }
+     /* Mmodern Design End */
+
+     /* Product Catalogue Start */
+     .product-catalogue-first-col:hover .add-product-btn {
+        display: inline-block;
+        position: absolute;
+        right: 251px;
+        bottom: -16px;
+    }
+    /* Product Catalogue End */
+
+    /* Blog Start */
+        .blog-first-col{
+            text-align: center;
+        }
+    /* Blog End */
+
+     /* Footer Start */
+    .sofa-image{
+        display: none;
+    }
+    .email-input{
+        margin-left: unset;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .message-send-btn{
+        margin-left: unset;
+        display:block;
+        padding:0px;
+    }
+    .footer-col1-width{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .footer-col2-width{
+        max-width: 100%;
+        flex: 0 0 100%;
+        margin-bottom: 20px;
+    }
+    .footer-col3-width{
+        max-width: 100%;
+        flex: 0 0 100%;
+        margin-bottom: 20px;
+    }
+    .footer-col4-width{
+        max-width: 100%;
+        flex: 0 0 100%;
+        margin-bottom: 20px;
+    }
+    .footer-col5-width{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .privacy-content{
+        display: block;
+        margin-bottom: 10px;
+    }
+    .privacy-policy{
+        display: block;
+    }
+    .privacy-policy li{
+        margin-bottom: 10px;
+    }
+    .terms-condition{
+        margin-top: 10px;
+    }
+    /* Footer End */
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* Header Start */
+    .container .row .right-col{
+        justify-content: end;
+    }
+    .container .header-row{
+        align-items: flex-start;
+    }
+    .navbar{
+        display: flex;
+        justify-content: end;
+    }
+    .navbar-items{
+        text-align: end;
+        margin-top: 8px;
+    }
+    .navbar-nav .nav-item {
+        margin-right: unset;
+        margin-bottom: 8px;
+    }
+    .navbar-icons{
+        justify-content: end !important;
+    }
+    .navbar-icons .navbar-cart-icons{
+        margin-right: 0px;
+    }
+    .navbar-banner{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .navbar-sofa-image{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    /* Header End */
+
+    /* Product Start */
+    .product-first-col{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .product-second-col{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .nordic-chair-col{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .product-catalogue-first-col:hover .add-product-btn{
+        right: 238px;
+    }
+    /* Product End */
+
+    /* Why Choose Us Start */
+    .why-choose-us-first-col{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .why-choose-us-second-col{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    /* Why Choose Us End */
+
+    /* Modern Design Start */
+    .modern-design-left-col{
+        max-width: 100%;
+        flex: 0 0 100%;
+        margin-bottom: 150px;
+    }
+    .modern-design-right-col{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    /* Modern Design End */
+
+
+    /* Product List Start */
+    .product-list-first-col{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    /* Product List End */
+
+    /* Blog Start */
+    .blog-first-col{
+        max-width: 100%;
+        flex: 0 0 100%;
+        text-align: center;
+    }
+    /* Blog End */
+
+    /* Footer Start */
+    .sofa-image{
+        display: none;
+    }
+    .email-input{
+        margin-left: unset;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .message-send-btn{
+        margin-left: unset;
+        display:block;
+        padding:0px;
+    }
+    .footer-col1-width{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .footer-col2-width{
+        max-width: 50%;
+        flex: 0 0 50%;
+        margin-bottom: 20px;
+    }
+    .footer-col3-width{
+        max-width: 50%;
+        flex: 0 0 50%;
+        margin-bottom: 20px;
+    }
+    .footer-col4-width{
+        max-width: 50%;
+        flex: 0 0 50%;
+        margin-bottom: 20px;
+    }
+    .footer-col5-width{
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+    .privacy-content{
+        display: block;
+        margin-bottom: 10px;
+    }
+    .privacy-policy{
+        display: block;
+    }
+    .privacy-policy li{
+        margin-bottom: 10px;
+    }
+    .terms-condition{
+        margin-top: 10px;
+    }
+    /* Footer End */
+}
+/* Media Queries End */
